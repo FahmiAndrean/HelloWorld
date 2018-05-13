@@ -11,8 +11,8 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
 
-client = LINE()
-#client = LINE("")
+#client = LINE()
+client = LINE("Esjmv9W1sdO3m60j1Pv3.E481vN+Uaw0zyrias241CW.z0P5sl0Mz109Q/A4tNX2jiHRJVSxoJ7iWBOIDDboM4c=")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
@@ -22,14 +22,14 @@ botStart = time.time()
 msg_dict = {}
 
 settings = {
-    "autoAdd": False,
+    "autoAdd": True,
     "autoJoin": False,
     "autoLeave": False,
     "autoRead": False,
     "autoRespon": False,
     "autoJoinTicket": False,
-    "checkContact": False,
-    "checkPost": False,
+    "checkContact": True,
+    "checkPost": True,
     "checkSticker": False,
     "changePictureProfile": False,
     "changeGroupPicture": [],
@@ -41,8 +41,8 @@ settings = {
         "statusMessage": ""
     },
     "mimic": {
-        "copy": False,
-        "status": False,
+        "copy": True,
+        "status": True,
         "target": {}
     },
     "setKey": False,
