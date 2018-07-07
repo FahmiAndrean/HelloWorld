@@ -56,7 +56,7 @@ def restartBot():
 
 def logError(text):
     client.log("[ ERROR ] {}".format(str(text)))
-    tz = pytz.timezone("Asia/Makassar")
+    tz = pytz.timezone("Asia/Jakarta")
     timeNow = datetime.now(tz=tz)
     timeHours = datetime.strftime(timeNow,"(%H:%M)")
     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
