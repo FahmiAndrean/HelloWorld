@@ -1,18 +1,20 @@
 {
-    "autoAdd": false,
-    "autoAddMessage": "Halo @!, terimakasih telah menambahkan saya sebagai teman :3",
+    "autoAdd": true,
+    "autoAddMessage": "╭──「 @!」\n│Cie nge add wkwkwkw\n│follow ig la\n│instagram.com/fahmiadrn\n╰──「Notified Add」",
     "autoJoin": false,
-    "autoJoinMessage": "Halo @!, makasih sudah invite saya",
+    "autoJoinMessage": "╭──「 @!」\n│Group apaan ini teh boy?\n╰──「Acc group」",
     "autoJoinTicket": false,
     "autoRead": false,
-    "autoRespon": false,
-    "autoResponMessage": "Woi @!, gak usah tag tag -_-",
+    "autoRespon": true,
+    "autoResponMessage": "╭──「 @!」\n│Kenapa nge tag? gua lagi\n│chas\n│makan\n│tidur\n│matiin data/0 kuota\n│leave a message i will read soon\n╰──「Tag detected on Group」",
     "changeGroupPicture": [],
     "changePictureProfile": false,
     "checkContact": false,
     "checkPost": false,
     "checkSticker": false,
-    "detectUnsend": false,
+    "detectUnsend": [
+        "c82ff2cde0f176194336b31b2291dce77"
+    ],
     "keyCommand": "",
     "mimic": {
         "status": false,
